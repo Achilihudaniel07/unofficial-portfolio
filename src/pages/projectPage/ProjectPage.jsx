@@ -38,27 +38,27 @@ function ProjectPage() {
                     
                     <span>
 
-                        <p><SocialIcon url="https://joedangoldtech.netlify.app/" style={{width:"60px", height: "40px"}} /></p>
+                        <p><SocialIcon url="https://joedangoldtech.netlify.app/"  target="_blank" style={{width:"60px", height: "40px"}} /></p>
 
-                        <p><SocialIcon url="https://joedangoldconstruction.netlify.app/" style={{width:"60px", height: "40px"}} /></p>
+                        <p><SocialIcon url="https://joedangoldconstruction.netlify.app/" target="_blank" style={{width:"60px", height: "40px"}} /></p>
 
-                        <p><SocialIcon url="https://evtop.netlify.app/" style={{width:"60px", height: "40px"}} /></p>
+                        <p><SocialIcon url="https://evtop.netlify.app/" target="_blank" style={{width:"60px", height: "40px"}} /></p>
 
-                        <p><SocialIcon url="https://neca-finder.netlify.app/" style={{width:"60px", height: "40px"}} /></p>
+                        <p><SocialIcon url="https://neca-finder.netlify.app/" target="_blank" style={{width:"60px", height: "40px"}} /></p>
                     
-                        <p> <SocialIcon url="https://keshfashionpage.netlify.app/" style={{width:"60px", height: "40px"}} /></p>
+                        <p> <SocialIcon url="https://keshfashionpage.netlify.app/" target="_blank" style={{width:"60px", height: "40px"}} /></p>
 
-                        <p><SocialIcon url="https://keshtodolist.netlify.app/" style={{width:"60px", height: "40px"}} /></p>
+                        <p><SocialIcon url="https://keshtodolist.netlify.app/" target="_blank" style={{width:"60px", height: "40px"}} /></p>
 
-                        <p><SocialIcon url="https://keshmanutdplayers.netlify.app/" style={{width:"60px", height: "40px"}} /></p>
+                        <p><SocialIcon url="https://keshmanutdplayers.netlify.app/" target="_blank" style={{width:"60px", height: "40px"}} /></p>
 
-                        <p><SocialIcon url="https://keshsnappage.netlify.app/" style={{width:"60px", height: "40px"}} /></p>
+                        <p><SocialIcon url="https://keshsnappage.netlify.app/" target="_blank" style={{width:"60px", height: "40px"}} /></p>
 
-                        <p><SocialIcon url="https://keshcounter.netlify.app/" style={{width:"60px", height: "40px"}} /></p>
+                        <p><SocialIcon url="https://keshcounter.netlify.app/" target="_blank" style={{width:"60px", height: "40px"}} /></p>
 
-                        <p><SocialIcon url="https://keshrobotfriends.netlify.app/" style={{width:"60px", height: "40px"}} /></p>
+                        <p><SocialIcon url="https://keshrobotfriends.netlify.app/" target="_blank" style={{width:"60px", height: "40px"}} /></p>
 
-                        <p><SocialIcon url="https://keshkittenfriends.netlify.app/" style={{width:"60px", height: "40px"}} /></p>                
+                        <p><SocialIcon url="https://keshkittenfriends.netlify.app/" target="_blank" style={{width:"60px", height: "40px"}} /></p>                
 
                     </span>
 
@@ -77,7 +77,7 @@ function ProjectPage() {
 
                 <div class="works-btn">
                        
-                    <a href="https://joedangoldtech.netlify.app/" > <CustomButton  type={'submit'} content='CHECK OUT' /></a>
+                    <a href="https://joedangoldtech.netlify.app/"  target="_blank"> <CustomButton  type={'submit'} content='CHECK OUT' /></a>
 
                 </div>
             </div>
