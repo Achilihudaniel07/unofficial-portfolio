@@ -26,17 +26,17 @@ function HomePage() {
                     <hr />
                     <div className="social-links">
                         
-                        <SocialIcon url="https://github.com/Achilihudaniel07" target="_blank" style={{width:"60px", height: "40px"}} />
+                        <SocialIcon url="https://github.com/Achilihudaniel07" target="_blank"  rel='noopener noreferrer' style={{width:"60px", height: "40px"}} />
                         
-                        <SocialIcon url="https://linkedin.com/in/daniel-u-achilihu-633161150/" target="_blank" style={{width:"60px", height: "40px"}} />
+                        <SocialIcon url="https://linkedin.com/in/daniel-u-achilihu-633161150/" target="_blank" rel='noopener noreferrer' style={{width:"60px", height: "40px"}} />
 
-                        <SocialIcon url="https://twitter.com/dan__kesh77" target="_blank" style={{width:"60px", height: "40px"}}/>
+                        <SocialIcon url="https://twitter.com/dan__kesh77" target="_blank" rel='noopener noreferrer' style={{width:"60px", height: "40px"}}/>
 
-                        <SocialIcon url="https://instagram.com/dan__kesh77" target="_blank" style={{width:"60px", height: "40px"}}/>
+                        <SocialIcon url="https://instagram.com/dan__kesh77" target="_blank" rel='noopener noreferrer' style={{width:"60px", height: "40px"}}/>
 
-                        <SocialIcon url="https://www.facebook.com/daniel.achilihu.9" target="_blank" style={{width:"60px", height: "40px"}}/>
+                        <SocialIcon url="https://www.facebook.com/daniel.achilihu.9" target="_blank" rel='noopener noreferrer' style={{width:"60px", height: "40px"}}/>
                         
-                        <SocialIcon url="https://api.whatsapp.com/send?phone=+2349037231624& text=Thank%20you%20for%20contacting%20me" target="_blank" style={{width:"60px", height: "40px"}}/>
+                        <SocialIcon url="https://api.whatsapp.com/send?phone=+2349037231624& text=Thank%20you%20for%20contacting%20me" target="_blank" rel='noopener noreferrer' style={{width:"60px", height: "40px"}}/>
                     </div>
 
                 
