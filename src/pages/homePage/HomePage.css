@@ -45,12 +45,12 @@
     font-style: normal;
 }
 
-.home-info hr{
-    margin-top: 40px;
-    width: 400px;
-}
 
 .social-links{
+    width: 30%;
+    padding: 10px;
+    margin: 0 auto;
+    border-top: 2px solid white;
     display: flex;
     justify-content: center;
 }

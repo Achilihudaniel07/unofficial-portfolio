@@ -23,7 +23,6 @@ function HomePage() {
                         </p>
                     </div>
 
-                    <hr />
                     <div className="social-links">
                         
                         <SocialIcon url="https://github.com/Achilihudaniel07" target="_blank"  rel='noopener noreferrer' style={{width:"60px", height: "40px"}} />
