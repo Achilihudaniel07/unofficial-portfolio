@@ -1,0 +1,200 @@
+
+.contact-us-header{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0px 4px 31px 0px #cacacc52;
+    display: flex;
+    justify-content: center;
+    color: rgb(3, 3, 3);
+}
+
+.contact-info{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(37, 36, 36, 0.94);
+    color: white;
+}
+
+.know-us-better h1{
+    text-align: center;
+    font-size: 4.0rem;
+    margin-bottom: 0;
+    padding: 3% 0 2%;
+}
+
+.phone-email-address{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    margin: 0 auto ;
+    width: 80%;
+}
+
+.phone-email-address img{
+   width:50px;
+   height: 50px;
+}
+
+.phone-id, .email-id, .address-id {
+    display: flex;
+    align-items:center;
+    gap: 15px;
+}
+
+.ph-em-ad h2{
+    margin-bottom: 0;
+    color: orange
+}
+
+.ph-em-ad p{
+    color: white;
+    margin-top: 0;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+.ph-em-ad a{
+  text-decoration: none;
+  color: white;
+}
+
+.contact-details{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5% 5%;
+}
+
+.get-in-touch{
+    text-align: center;
+}
+
+.get-in-touch h1{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.get-in-touch p{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    color: #242121f6;
+    margin-bottom: 20px;
+}
+
+.contact-page-form{
+    width: 50%;
+    opacity: 0.9;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 4px 10px 0px #00000052; 
+}
+
+.contact-page-form input{
+    width: 70%;
+    height: 30px;
+    margin-bottom: 30px;
+    padding: 2% 3%;
+    font-size: 1.2rem;
+    box-shadow: 0px 4px 10px 0px #cacacc52;
+}
+
+.contact-page-form textarea{
+    width: 70%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 2% 3%;
+    font-size: 1.2rem;
+    box-shadow: 0px 4px 10px 0px #cacacc52;
+}
+
+.cn-send-message button{
+    width: 250px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    box-shadow: 1px  2px 1px 1px rgb(143, 98, 30);
+}
+
+.cn-send-message button:hover{
+    background-color: #ffc107;
+    box-shadow: 1px  2px 1px 1px black;
+    color: black;
+}
+
+.map{
+    background-color: whitesmoke;
+    width: 50%;
+}
+
+.map iframe{
+    width:100%;
+    height: 110vh;
+  
+}
+
+
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width:1000px) {
+    
+    .contact-us-header h1{
+        font-size: 2rem;
+        margin-top: 50px;
+    }
+
+    .know-us-better h1{
+        padding: 0 2%;
+    }
+
+    .phone-email-address {
+        display: grid;
+    }
+    
+    #address-cp{
+        margin-top: 0px;
+    }
+    
+    .address-id {
+        align-items: flex-start;
+    }
+    
+    .address-id img{
+        margin-top: 50px;
+    }
+
+    .contact-details{
+        display: grid;
+    }
+
+    .contact-page-form{
+        width: 100%;
+        padding: 7% 2%;
+        opacity: 0.9;
+        background-color: white;
+    }
+
+    .cn-send-message button{
+        width: 50%;
+    }
+
+    .map{
+        display: none;
+    }
+
+    .moving-truck{
+        display: none;
+        height: 50px;
+        padding: 10px 0;
+    }
+
+    .cnt-footer{
+        margin-top: 50px;
+    }
+}
+

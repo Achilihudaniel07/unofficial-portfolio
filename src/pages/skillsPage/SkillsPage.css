@@ -1,0 +1,138 @@
+.skills-header{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0px 4px 31px 0px #cacacc52;
+    display: flex;
+    justify-content: center;
+    color: rgb(3, 3, 3);
+}
+
+.skills-info{
+    background-color: rgb(245, 245, 245);
+    color: black;
+    display: flex;
+    align-items: flex-start;
+    font-size: 20px;
+    word-spacing: 5px;
+    padding: 3% 0;
+
+}
+
+.skills-imgz{
+    width: 30%;
+    padding: 0.9% 3%;
+    
+}
+.skills-imgz h2{
+    width: 110px;
+    padding-bottom: 10px;
+    letter-spacing: 0.4rem;
+    border-bottom: 5px solid blue;
+    border-bottom-style:dotted;
+}
+
+.skills-details{
+    width: 80%;
+}
+
+
+.skills-details h5{
+    width: 80%;
+
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+
+/* SKILLS + */
+
+
+    
+.html {
+    width: 500px;
+    background-color:orange;
+    height: 50px;
+}
+
+.css{
+    width: 450px;
+    background-color:orange;
+    height: 50px;
+}
+
+.js{
+    width: 250px;
+    background-color:orange;
+    height: 50px;
+}
+
+.react{
+    width: 300px;
+    background-color:orange;
+    height: 50px;
+}
+
+.node{
+    width: 150px;
+    background-color:orange;
+    height: 50px;
+}
+
+.git{
+    width: 520px;
+    background-color:orange;
+    height: 50px;
+}
+
+.netlify{
+    width: 400px;
+    background-color:orange;
+    height: 50px;
+}
+
+
+
+/* SKILLS - */
+
+.html-{
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 50px;
+}
+
+.css-{
+    width: 600px;
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 50px;
+}
+
+.js-{
+    width: 600px;
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 50px;
+}
+
+.react-{
+    width: 600px;
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 50px;
+}
+
+.node-{
+    width: 600px;
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 50px;
+}
+.git-{
+    width: 600px;
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 50px;
+}
+.netlify-{
+    width: 600px;
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 50px;
+}
+

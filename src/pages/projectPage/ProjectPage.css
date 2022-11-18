@@ -1,0 +1,90 @@
+.project-header{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0px 4px 31px 0px #cacacc52;
+    display: flex;
+    justify-content: center;
+    color: rgb(3, 3, 3);
+}
+
+.project-info{
+    background-color: rgb(245, 245, 245);
+    color: black;
+    padding: 3% 0;  
+}
+
+.project-details{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.project-details h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.project-details p{
+    font-family:'Raleway', sans-serif;
+    margin-bottom: 50px;
+    line-height: 1.5rem;
+}
+
+.project-images{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.project-imagez img{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+    object-fit:fill;
+}
+
+.project-links{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.project-links h1{
+    text-align: center;
+    
+}
+
+.project-links span{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(41, 39, 35);
+}
+
+
+.works{
+    background-color: rgba(248, 247, 247, 0.638);
+    padding: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.works-details h3{
+    font-weight: bolder;
+    margin: 0 auto;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.works-details p{
+    font-weight: bold;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin-bottom: 20px;
+}

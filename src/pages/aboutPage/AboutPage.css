@@ -1,0 +1,102 @@
+
+.about-header{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0px 4px 31px 0px #cacacc52;
+    display: flex;
+    justify-content: center;
+    color: rgb(3, 3, 3);
+}
+
+.about-info{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4% 0;
+    background-color: rgba(0, 0, 0, 0.912);
+}
+
+.about-imgz{
+    width: 30%;
+    padding: 2% 3% ;
+}
+
+.about-imgz img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 25px solid #29292b;
+}
+
+.about-details{
+    width: 70%;
+    color: white;
+}
+
+
+.about-details h2{
+    font-size: 2rem;
+    color: orange;
+}
+
+.about-details p{
+    width: 80%;
+    word-spacing: 0.2rem;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    font-family:'Raleway', sans-serif;
+
+}
+
+.contact-ab {
+    margin-top: 50px;
+}
+
+.contact-ab p{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+.contact-ab a{
+    text-decoration: none;
+    color: blue;
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width:1000px) {
+    .aboutus-header h1{
+        font-size: 2rem;
+        margin-top: 50px;
+    }
+
+    .aboutus-pic{
+        display: none;
+    }
+    
+    .aboutus-info {
+        width: 80%;
+    }
+    
+    .aboutus-details{
+        padding: 0 5%;
+        position: relative;
+    }
+
+    .aboutus-details h1{
+        font-size: 3rem;
+    }
+
+    .aboutus-details p{
+        width: 100%;
+        line-height: 1.5rem;
+        font-weight:normal;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+  
+}
+

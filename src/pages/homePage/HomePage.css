@@ -1,0 +1,84 @@
+.home-info{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(../../assets/images/homeP.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+}
+
+.home-details{
+    width: 80%;
+    margin: 0 auto;
+    padding: 12% 4%;
+    color: white;
+}
+
+.home-intro h1{
+    font-size: 5rem;
+    margin-bottom: 0;
+    letter-spacing: 0.4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 
+      -1px -1px 0 blue,
+    -2px -2px 0 blue,
+    -3px -3px 0 blue,
+    -4px -4px 0 blue,
+    -5px -5px 0 blue, 
+    -6px -6px 0 blue,
+    -7px -7px 0 blue,
+    -8px -8px 0 blue,
+    -10px -20px 30px blue; 
+}
+
+.home-intro p{
+    width: 70%;
+    line-height: 2rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family:'Raleway', sans-serif;
+
+}
+
+.home-intro em{
+    color: orange;
+    font-style: normal;
+}
+
+.home-info hr{
+    margin-top: 40px;
+    width: 400px;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width:1000px) {
+    
+    .home-info{
+        /* background-image: url(../../assets/images/homeP.png); */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .home-details{
+        padding-top: 40%;
+    }
+    
+    .home-info h1{
+        font-size: 3rem;
+    }
+    
+    .home-info p{
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    
+  }

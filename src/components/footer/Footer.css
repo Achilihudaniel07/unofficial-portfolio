@@ -1,0 +1,56 @@
+#footerhr{
+    width: 90%;
+    opacity: 50%;
+}
+
+.footer{
+    background-color: rgba(73, 71, 71, 0.94);
+    padding:7% 0;
+}
+
+.footer-info{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.footer-details{
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-details p{
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-details a{
+    color:white;
+    text-decoration: none;
+}
+    
+.footer-details a:hover{
+    color:orange;
+    transition: 0.5s ease-in;
+
+}
+
+.footer-links{
+    padding: 1% 0;
+    flex-wrap: wrap;
+}
+
+
+
+
+@media screen and (max-width: 1000px){
+    .footer-details{
+        background-color: rgba(73, 71, 71, 0.94);
+        padding:8% 0 0;
+        display: grid;
+        justify-content: center;
+        /* text-align: center; */
+    }
+}
+
