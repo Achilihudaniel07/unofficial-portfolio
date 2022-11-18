@@ -54,8 +54,6 @@ function ProjectPage() {
 
                         <p><SocialIcon url="https://keshsnappage.netlify.app/" style={{width:"60px", height: "40px"}} /></p>
 
-                        <p><SocialIcon url="https://keshgooglepage.netlify.app/" style={{width:"60px", height: "40px"}} /></p>
-
                         <p><SocialIcon url="https://keshcounter.netlify.app/" style={{width:"60px", height: "40px"}} /></p>
 
                         <p><SocialIcon url="https://keshrobotfriends.netlify.app/" style={{width:"60px", height: "40px"}} /></p>
